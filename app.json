@@ -1,12 +1,44 @@
 {
-  "pages":[
+  "pages": [
+    "pages/homework/homework",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/recommand/recommand"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "英语模拟考",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/homework/homework",
+        "text": "作业",
+        "iconPath": "pages/homework/homework_normal.png",
+        "selectedIconPath": "pages/homework/homework_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "pages/homework/homework_normal.png",
+        "selectedIconPath": "pages/homework/homework_selected.png"
+      },
+      {
+        "pagePath": "pages/recommand/recommand",
+        "text": "推荐",
+        "iconPath": "pages/recommand/recommand_normal.png",
+        "selectedIconPath": "pages/recommand/recommand_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "logs",
+        "iconPath": "pages/logs/user_normal.png",
+        "selectedIconPath": "pages/logs/user_selected.png"
+      }
+    ]
   }
 }
