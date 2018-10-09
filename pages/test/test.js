@@ -1,4 +1,4 @@
-// pages/homework.js
+// pages/test/test.js
 Page({
 
   /**

@@ -3,7 +3,9 @@
     "pages/homework/homework",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/recommand/recommand"
+    "pages/recommand/recommand",
+    "pages/test/test",
+    "pages/playground/playground"
   ],
   "window": {
     "backgroundTextStyle": "light",
