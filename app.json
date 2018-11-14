@@ -1,9 +1,7 @@
 {
   "pages": [
     "pages/homework/homework",
-    "pages/index/index",
     "pages/logs/logs",
-    "pages/recommand/recommand",
     "pages/test/test",
     "pages/playground/playground"
   ],
@@ -24,20 +22,20 @@
         "selectedIconPath": "pages/homework/homework_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "index",
-        "iconPath": "pages/homework/homework_normal.png",
-        "selectedIconPath": "pages/homework/homework_selected.png"
+        "pagePath": "pages/test/test",
+        "text": "测验",
+        "iconPath": "pages/test/test_normal.png",
+        "selectedIconPath": "pages/test/test_selected.png"
       },
       {
-        "pagePath": "pages/recommand/recommand",
+        "pagePath": "pages/playground/playground",
         "text": "推荐",
-        "iconPath": "pages/recommand/recommand_normal.png",
-        "selectedIconPath": "pages/recommand/recommand_selected.png"
+        "iconPath": "pages/playground/playground_normal.png",
+        "selectedIconPath": "pages/playground/playground_selected.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "logs",
+        "text": "我的",
         "iconPath": "pages/logs/user_normal.png",
         "selectedIconPath": "pages/logs/user_selected.png"
       }
