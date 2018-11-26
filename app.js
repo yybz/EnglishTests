@@ -6,10 +6,6 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    wx.cloud.init({
-      env:'english-test-c29b4c'
-    })
-
     // 登录
     wx.login({
       success: res => {
@@ -34,6 +30,23 @@ App({
             }
           })
         }
+      }
+    })
+
+    wx.cloud.init({
+      env: 'english-test-c29b4c',
+      traceUser: true
+    })
+    wx.cloud.callFunction ({
+      name: 'login',
+      data: {
+        isStudent: true
+      },
+      success: function(res) {
+        console.log('client login success' + res)
+      },
+      fail: function(rej) {
+        console.log('client login failed' + rej)
       }
     })
   },
